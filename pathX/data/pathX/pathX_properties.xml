@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    The properties in this file setup a Harry Potter flavor of this game called
+    The Sorting Hat. Note that by swapping out all these settings we could easily
+    change the flavor.
+-->
+<properties>
+    <property_list>
+        <!-- ALL THE IMAGES TO BE USED IN THE GAME -->
+        <property name="IMAGE_BACKGROUND_GAME"              value="./pathX/BackgroundGame.png"></property>
+		<property name="IMAGE_BACKGROUND_GAME2"              value="./pathX/BackgroundGame2.png"></property>
+        <property name="IMAGE_BACKGROUND_GAMEPLAY"              value="./pathX/BackgroundGameplay.png"></property>
+		<property name="IMAGE_BACKGROUND_GAMEPLAY2"              value="./pathX/BackgroundGameplay2.png"></property>
+		<property name="IMAGE_BACKGROUND_MENU"              value="./pathX/BackgroundMenu.png"></property>
+		<property name="IMAGE_BACKGROUND_SETTING"              value="./pathX/BackgroundSetting.png"></property>
+        <property name="IMAGE_BUTTON_PLAY"                   value="./pathX/ButtonPlay.png"></property>
+        <property name="IMAGE_BUTTON_PLAY_MOUSE_OVER"        value="./pathX/ButtonPlayMouseOver.png"></property>
+		<property name="IMAGE_BUTTON_RESET"                  value="./pathX/ButtonReset.png"></property>
+        <property name="IMAGE_BUTTON_RESET_MOUSE_OVER"       value="./pathX/ButtonResetMouseOver.png"></property>
+        <property name="IMAGE_BUTTON_HELP"                 value="./pathX/ButtonHelp.png"></property>
+        <property name="IMAGE_BUTTON_HELP_MOUSE_OVER"      value="./pathX/ButtonHelpMouseOver.png"></property>
+		<property name="IMAGE_BUTTON_SETTING"                 value="./pathX/ButtonSetting.png"></property>
+        <property name="IMAGE_BUTTON_SETTING_MOUSE_OVER"      value="./pathX/ButtonSettingMouseOver.png"></property>
+		<property name="IMAGE_WINDOW_ICON"      			value="./pathX/WindowIcon.png"></property>
+		<property name="IMAGE_BUTTON_HOME"                 value="./pathX/ButtonHome.png"></property>
+        <property name="IMAGE_BUTTON_HOME_MOUSE_OVER"      value="./pathX/ButtonHomeMouseOver.png"></property>
+		<property name="IMAGE_BUTTON_X"                 value="./pathX/ButtonX.png"></property>
+        <property name="IMAGE_BUTTON_X_MOUSE_OVER"      value="./pathX/ButtonXMouseOver.png"></property>
+        <property name="IMAGE_BACKGROUND_HELP"    		  value="./pathX/BackgroundHelp.png"></property>
+		<property name="IMAGE_BUTTON_UP"                 value="./pathX/ButtonUp.png"></property>
+		<property name="IMAGE_BUTTON_DOWN"                 value="./pathX/ButtonDown.png"></property>
+		<property name="IMAGE_BUTTON_LEFT"                 value="./pathX/ButtonLeft.png"></property>
+		<property name="IMAGE_BUTTON_RIGHT"                 value="./pathX/ButtonRight.png"></property>
+		<property name="IMAGE_BUTTON_LEVEL_RED"                 value="./pathX/ButtonLevelRed.png"></property>
+		<property name="IMAGE_BUTTON_LEVEL_MOUSE_OVER"                 value="./pathX/ButtonLevelMouseOver.png"></property>
+		<property name="IMAGE_BUTTON_LEVEL_WHITE"                 value="./pathX/ButtonLevelWhite.png"></property>
+		<property name="IMAGE_BUTTON_LEVEL_GREEN"                 value="./pathX/ButtonLevelGreen.png"></property>
+		<property name="IMAGE_BUTTON_DIALOG_X"                 value="./pathX/ButtonDialogX.png"></property>
+		<property name="IMAGE_DIALOG_LEVEL"                 value="./pathX/DialogInfo.png"></property>
+		<property name="IMAGE_DIALOG_WIN"                 value="./pathX/DialogWin.png"></property>
+		<property name="IMAGE_DIALOG_LOST"                 value="./pathX/DialogLost.png"></property>
+		<property name="IMAGE_PLAYER"                 value="./pathX/Player.png"></property>
+		<property name="IMAGE_COP"                 value="./pathX/Cop.png"></property>
+		<property name="IMAGE_ZOMBIE"                 value="./pathX/Zombie.png"></property>
+		<property name="IMAGE_BUTTON_MUTE_OFF"              value="./pathX/ButtonMuteOff.png"></property>
+		<property name="IMAGE_BUTTON_MUTE_ON"              value="./pathX/ButtonMuteOn.png"></property>
+		<property name="IMAGE_BUTTON_PLAY_AGAIN"              value="./pathX/ButtonPlayAgain.png"></property>
+		<property name="IMAGE_BUTTON_PLAY_AGAIN_MOUSE_OVER"              value="./pathX/ButtonPlayAgainMouseOver.png"></property>
+		<property name="IMAGE_BUTTON_LEAVE_TOWN"              value="./pathX/ButtonLeaveTown.png"></property>
+		<property name="IMAGE_BUTTON_LEAVE_TOWN_MOUSE_OVER"              value="./pathX/ButtonLeaveTownMouseOver.png"></property>
+        <!-- ALL THE TEXT TO BE DISPLAYED -->
+        <property name="TEXT_ERROR_LOADING_AUDIO"               value="Error Loading an Audio File"></property>
+        <property name="TEXT_ERROR_LOADING_LEVEL"               value="Error Loading a Level File"></property>
+        <property name="TEXT_ERROR_LOADING_RECORD"              value="Error Loading the Player Record"></property>
+        <property name="TEXT_ERROR_LOADING_XML_FILE"            value="Error Loading an XML File"></property>
+        <property name="TEXT_ERROR_SAVING_RECORD"               value="Error Saving the Player Record"></property>
+        <property name="TEXT_LABEL_STATS_ALGORITHM"             value="Algorithm: "></property>
+        <property name="TEXT_LABEL_STATS_GAMES"                 value="Games: "></property>
+        <property name="TEXT_LABEL_STATS_WINS"                  value="Wins: "></property>
+        <property name="TEXT_LABEL_STATS_PERFECT_WINS"          value="Perfect Wins: "></property>
+        <property name="TEXT_LABEL_STATS_FASTEST_PERFECT_WIN"   value="Fastest Perfect Win: "></property>
+        <property name="TEXT_PROMPT_EXIT"                       value="Are you sure you wish to exit?"></property>
+        <property name="TEXT_TITLE_BAR_GAME"                    value="pathX"></property>
+        <property name="TEXT_TITLE_BAR_ERROR"                   value="An error has occurred"></property>    
+
+		<property name="AUDIO_CUE_GAME_MUSIC"                 value="./pathX/WeBuiltOurOwnWorld.wav"></property>
+        <property name="AUDIO_CUE_SPECIAL_USE"                    value="./pathX/SpecialsUse.wav"></property>
+        
+        <!-- AUDIO FILES -->
+       
+    </property_list>
+    
+    <!-- PLAYABLE LEVELS CREATED WITH THE LEVEL EDITOR -->
+    <property_options_list>
+       <property_options name="LEVEL_OPTIONS">
+            <option>pathX/Queens.xml</option>	
+			<option>pathX/Brooklyn.xml</option>
+			<option>pathX/Boston.xml</option>
+			<option>pathX/Colorado.xml</option>
+			<option>pathX/Orlando.xml</option>
+			<option>pathX/SanFrancisco.xml</option>
+			<option>pathX/Houston.xml</option>
+			<option>pathX/StatenIsland.xml</option>
+        </property_options>
+		
+    </property_options_list>
+</properties>
